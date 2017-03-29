@@ -9,7 +9,7 @@ var slide = {
 var answerOne = "#answerPop";
 var invalidPop = "#invalid";
 
-// Begin main bmiE function ---------------------------------------------
+// Begin main bmiE function --------------------------------------------
 var bmiE = function() {
     var x;
     var y;
