@@ -1,0 +1,6 @@
+# gitignore - ddl
+
+# Extra ignores
+components
+.DS_Store
+Thumbs.db
