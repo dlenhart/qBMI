@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <meta charset="utf-8">
- <meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width">
 <title>aBMI</title>
 <link href="css/external.css" rel="stylesheet" type="text/css">
 <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
@@ -39,40 +39,39 @@
 </div>
 
 <!--BMI Calc----------------------------------------------------- -->
-
 <div data-role="page" id="bmi" data-add-back-btn="true" data-theme="b">
-	<div data-role="header" data-theme="b">
-		<h1>qBMI Calculator</h1>
-	</div>
-	<div data-role="content">
-		<div data-role="fieldcontain">
-            <label for="selector" class="select"><b>Make a selection:</b></label>
-			<select name="selector" id="selector" class="group" data-theme="b" data-native-menu="false" data-mini="true" onChange='checkV(this.value); refresh();'>
-				<option value="metric">Metric (meters/kilograms)</option>
-				<option value="metric2">Metric (centimeters/kilograms)</option>
-				<option value="eng2">Standard (height(feet/inches/pounds)</option>
-				<option value="eng">Standard (inches/pounds)</option>
-			</select>
-		</div>
-		
-        <label for="height" id="heightlbl"><b>Height:</b></label>
-		<input type="number" name="height" id="height" value="" data-theme="b">
+    <div data-role="header" data-theme="b">
+        <h1>qBMI Calculator</h1>
+    </div>
+    <div data-role="content">
+    <div data-role="fieldcontain">
+        <label for="selector" class="select"><b>Make a selection:</b></label>
+        <select name="selector" id="selector" class="group" data-theme="b" data-native-menu="false" data-mini="true" onChange='checkV(this.value); refresh();'>
+        <option value="metric">Metric (meters/kilograms)</option>
+        <option value="metric2">Metric (centimeters/kilograms)</option>
+        <option value="eng2">Standard (height(feet/inches/pounds)</option>
+        <option value="eng">Standard (inches/pounds)</option>
+        </select>
+    </div>
 
-        <div id= "hideFeet" style='display:none'><label for="feet" id="feetlbl" style='display:none'><b>Height (Feet):</b></label>
-		<input type="number" name="feet" id="feet" value="" data-theme="b"></div>
+    <label for="height" id="heightlbl"><b>Height:</b></label>
+    <input type="number" name="height" id="height" value="" data-theme="b">
 
-        <div id= "hideInch" style='display:none'><label for="inches" id="inchlbl" style='display:none'><b>(Inches):</b></label>
-            <input type="number" name="inches" id="inches" value="" data-theme="b"></div>
-		
-        <label for="weight"><b>Weight:</b></label>
-		<input type="number" name="weight" id="weight" value="" data-theme="b">
-		<br>
-        <center>
-		<button id="calcuBMI" data-inline="true" data-icon="grid" data-theme="b">Calculate</button>
+    <div id= "hideFeet" style='display:none'><label for="feet" id="feetlbl" style='display:none'><b>Height (Feet):</b></label>
+    <input type="number" name="feet" id="feet" value="" data-theme="b"></div>
+
+    <div id= "hideInch" style='display:none'><label for="inches" id="inchlbl" style='display:none'><b>(Inches):</b></label>
+    <input type="number" name="inches" id="inches" value="" data-theme="b"></div>
+
+    <label for="weight"><b>Weight:</b></label>
+    <input type="number" name="weight" id="weight" value="" data-theme="b">
+    <br />
+    <center>
+        <button id="calcuBMI" data-inline="true" data-icon="grid" data-theme="b">Calculate</button>
         <button id="reSetButton" data-inline="true" data-icon="refresh" data-theme="b">Reset</button>
         <a href="#" data-rel="back" data-inline="true" data-icon="back" data-role="button" data-theme="b">Back</a>
-        </center>
-	</div>
+    </center>
+    </div>
 </div>
 
 <!--Invalid Popup dialog-->
