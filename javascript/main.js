@@ -4,7 +4,7 @@
 
 
 var slide = {
-	transition : "pop"
+    transition : "pop"
 };
 var answerOne = "#answerPop";
 var invalidPop = "#invalid";
