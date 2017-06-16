@@ -23,7 +23,7 @@ Run on a webserver.
 
 Website
 -------
-http://snowytech.com
+https://snowytech.github.io
 
 
 License
