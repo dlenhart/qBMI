@@ -5,7 +5,7 @@ qBMI (quick BMI) is a very simple, and BMI calculator. It will help calculate yo
 
 Committing old code that has never been in source control.  Code was originally written circa 2012-2013 as an HTML5/Cordova application for Android.  Last updated January 2016 to utilize Boostrap CSS.  This is the browser version and doesn't include the Android project.
 
-Demo:  http://www.snowytech.com/data/qBMI2.0/
+Demo:  https://snowytech.github.io/data/qBMI2.0/
 
 App can still be found on Google Play Store:  https://play.google.com/store/apps/details?id=com.snowytech.qbmi
 
